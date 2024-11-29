@@ -10,6 +10,6 @@ export class ValidationController {
     @Post()
     async validate() {
     console.log("send data...")
-      return this.validationService.sendRandomRequests(10000);
+      return this.validationService.sendRandomRequests(10);
     }
 }
